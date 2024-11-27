@@ -18,3 +18,8 @@ commands (assuming you already have Python installed):
     • source .venv/Scripts/Activate (i use windows, so i don't know how it works on others O.S.)
     • pip install fastapi[standard] sqlmodel cryptocode pyjwt psycopg2
     • uvicorn main:app
+Make sure you have a ".env" file with the enviroment variables need:
+    • DB_URL
+    • SECRET_CRYPTO_PASS
+    • SECRET_JWT_PASS
+    • ALGORITHM
